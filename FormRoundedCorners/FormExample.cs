@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormRoundedCorners
 {
-    public partial class Form1 : Form
+    public partial class FormExample : Form
     {
-        public Form1()
+        public FormExample()
         {
             InitializeComponent();
         }
