@@ -17,6 +17,10 @@ si nos sale esto, solo debemos de compilar
 
 Cerrarmos  y volvemos abrir el formulario. [**ver vídeo de cómo se hizo el proyecto**](https://youtu.be/XkTxq_S5BrM).
 
+Resultado final
+
+![image](https://user-images.githubusercontent.com/65135568/117367568-f807a280-ae87-11eb-945f-256bc8f8bf79.png)
+
 
 
 
