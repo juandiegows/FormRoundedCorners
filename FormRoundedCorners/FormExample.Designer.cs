@@ -28,14 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ellipseComponentFormExample = new FormRoundedCorners.Components.EllipseComponent();
             this.ellipseControl1 = new FormRoundedCorners.Controls.EllipseControl();
+            this.ellipseComponentFormExample = new FormRoundedCorners.Components.EllipseComponent();
+            this.ellipseComponent1 = new FormRoundedCorners.Components.EllipseComponent();
             this.SuspendLayout();
-            // 
-            // ellipseComponentFormExample
-            // 
-            this.ellipseComponentFormExample.CornerRadius = 60;
-            this.ellipseComponentFormExample.TargetControl = this;
             // 
             // ellipseControl1
             // 
@@ -46,6 +42,16 @@
             this.ellipseControl1.Size = new System.Drawing.Size(269, 187);
             this.ellipseControl1.TabIndex = 0;
             this.ellipseControl1.Text = "ellipseControl";
+            // 
+            // ellipseComponentFormExample
+            // 
+            this.ellipseComponentFormExample.CornerRadius = 70;
+            this.ellipseComponentFormExample.TargetControl = this;
+            // 
+            // ellipseComponent1
+            // 
+            this.ellipseComponent1.CornerRadius = 30;
+            this.ellipseComponent1.TargetControl = null;
             // 
             // FormExample
             // 
@@ -64,6 +70,7 @@
 
         private Components.EllipseComponent ellipseComponentFormExample;
         private Controls.EllipseControl ellipseControl1;
+        private Components.EllipseComponent ellipseComponent1;
     }
 }
 

@@ -36,14 +36,16 @@ namespace FormRoundedCorners.Components
             set
             {
                 _control = value;
-        
-                _control.SizeChanged += (sender, eventArgs) => {
+                if (_control != null)
+                {
+                    _control.SizeChanged += (sender, eventArgs) =>
+                    {
 
-                    IntPtr handle = CreateRoundRectRgn(0, 0, _control.Width+1000, _control.Height, _CornerRadius, _CornerRadius);
-                    _control.Region = Region.FromHrgn(handle);
-                    DeleteObject(handle);
-                };
-
+                        IntPtr handle = CreateRoundRectRgn(0, 0, _control.Width, _control.Height, _CornerRadius, _CornerRadius);
+                        _control.Region = Region.FromHrgn(handle);
+                        DeleteObject(handle);
+                    };
+                }
             }
         }
 
